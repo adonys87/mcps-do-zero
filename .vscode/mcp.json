@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "joanadonys-mcp": {
+            "type": "stdio",
+            "command": "node",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--experimental-strip-types",
+                "src/index.ts"
+            ]
+        }
+    }
+}
